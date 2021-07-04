@@ -52,7 +52,7 @@ const production = {
   },
   google_client_id: process.env.WBP_GOOGLE_CLIENT_ID,
   google_client_secret: process.env.WBP_GOOGLE_CLIENT_SECRET,
-  google_call_back_url: process.env.WBP_GOOGLE_CALLBACK_RURL,
+  google_call_back_url: process.env.WBP_GOOGLE_CALLBACK_URL,
   jwt_secret: process.env.WBP_JWT_SECRET,
   morgan: {
     mode: "combined",

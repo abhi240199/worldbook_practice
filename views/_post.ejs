@@ -4,7 +4,9 @@
         <%= post.content %>
             <br>
             <small>
-                <%= post.user.name %>
+                <b>
+                    <%= post.user.name %>
+                </b>
             </small>
             <% if (locals.user && locals.user.id==post.user.id){ %>
                 <small>
@@ -48,5 +50,5 @@
                     </ul>
                 </div>
     </div>
-
+    <br>
 </li>
