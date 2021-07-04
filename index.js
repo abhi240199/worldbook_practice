@@ -1,7 +1,7 @@
 const express = require("express");
 const env = require("./config/environment");
 const logger = require("morgan");
-
+const cors = require("cors");
 const cookieParser = require("cookie-parser");
 const app = express();
 require("./config/view-helpers")(app);
